@@ -909,6 +909,11 @@ img {
     gap: 40px;
   }
 
+  .menu-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+  }
+
   .menu-split {
     grid-template-columns: 1fr;
   }
@@ -958,6 +963,10 @@ img {
     order: -1;
   }
 
+  .menu-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
   .reservation-grid {
     grid-template-columns: 1fr;
   }
@@ -988,6 +997,10 @@ img {
 
   .hero-subtitle {
     font-size: 1.1rem;
+  }
+
+  .menu-grid {
+    grid-template-columns: 1fr;
   }
 
   .footer-grid {
