@@ -521,8 +521,8 @@ img {
 
 .menu-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 24px;
 }
 
 .menu-card {
@@ -541,7 +541,7 @@ img {
 
 .card-img-wrapper {
   position: relative;
-  height: 220px;
+  height: 180px;
   overflow: hidden;
 }
 
@@ -591,8 +591,9 @@ img {
 }
 
 .card-content h4 {
-  font-family: var(--font-heading);
-  font-size: 1.8rem;
+  font-family: var(--font-body);
+  font-size: 1.25rem;
+  font-weight: 600;
   margin-bottom: 8px;
   color: var(--c-white);
 }
@@ -619,8 +620,9 @@ img {
 }
 
 .item-info h4 {
-  font-family: var(--font-heading);
-  font-size: 1.5rem;
+  font-family: var(--font-body);
+  font-size: 1.15rem;
+  font-weight: 600;
   color: var(--c-white);
 }
 
@@ -632,7 +634,7 @@ img {
 .list-price {
   font-size: 1.2rem;
   font-weight: 600;
-  color: var(--c-turquoise);
+  color: var(--c-mustard);
 }
 
 /* =========================================================================
